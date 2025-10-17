@@ -13,7 +13,7 @@ import clsx from "clsx";
 interface LinkItem {
   name: string;
   href: string;
-  icon: React.ComponentType;
+  icon: React.ComponentType<{ className?: string }>;
 }
 
 // Define the links array
